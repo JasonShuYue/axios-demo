@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+#app {
+  background: gray;
+  padding: 15px 30px;
+  border-radius: 15px; }
+  #app p {
+    padding-top: 20px; }
+  #app .actions {
+    text-align: center;
+    margin-top: 15px; }
+    #app .actions button {
+      width: 35px;
+      padding: 4px;
+      border-radius: 4px; }
+      #app .actions button:focus {
+        outline: none; }
